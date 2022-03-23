@@ -1,0 +1,36 @@
+Anotações de aprendizado 
+
+Git/Github 
+
+COMANDOS DE NAVEGAÇÃO DO TERMINAL GIT:
+
+.Ls
+.cd
+.clear (Ctrl L)
+
+COMANDOS BÁSICOS DO GIT:
+
+.Git init - inicia o repertório git
+.Git add - mover arquivos, começar versionamento
+.Git commit - iniciar novos commits
+
+PRIMEIRO COMMIT:
+
+ $ git config --global user.email "seu email"                OBS: ESSAS DUAS LINHAS SÓ VÃO SER USADAS NA PRIMEIRA VEZ.
+ $ git config --global user.name "seu nome de usuário"    
+
+ $ git add * ou $ git add . ( * para adicionar algum arquivo em especifico ou . pra adicionar logo tudo)
+
+ $ commit -m "nome do commit"
+ 
+ $ git status  ( pra ver o status do seus arquivos e commits)
+
+ MANDANDO PARA O GIT HUB:
+
+ $ git remote add origin "link do repositório"
+ $ git remote -v (para ver os repositórios disponíveis)
+ $ git push origin (nome da branch)
+
+ CLONAR REPOSITÓRIO:
+
+ $ git clone "link do repositório"
